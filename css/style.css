@@ -1,0 +1,236 @@
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+  }
+  
+  .content-container {
+    padding-top: 70px; /* Adjust the padding value as needed */
+  }
+  .navbar-nav .nav-link {
+    color: black;
+    font-weight: 500;
+    /* font-size: 18px; */
+  }
+  .navbar {
+  background-color: white;
+}
+.navbar-nav .nav-link {
+  color: rgb(33, 127, 203);
+}
+.navbar-nav .nav-link:hover {
+  color: white;
+}
+
+.logo{
+  max-width: 120px;
+  height: auto;
+}
+.nav-item img{
+  width: 40px;
+  height: 40px;
+}
+.certified{
+  position: relative;
+  left: 72px;}
+.first{
+  height: 72px;
+}
+.first p{
+font-size: 13px;
+}
+.first li p{
+  font-size: 13px;
+}
+/* .nav2{
+  padding-top: 115px;
+} */
+/* Customize the appearance of the dropdown menu */
+.dropdown-menu {
+   /* Adjust the width of the dropdown menu */
+  border: 1px solid #ccc; /* Add a border to the dropdown menu */
+  box-shadow: 0 0 10px rgba(8, 1, 1, 0.1); /* Add a subtle shadow to the dropdown menu */
+  position: absolute; /* Set position to absolute to allow centering */
+  display: none; 
+  background-color: rgb(251, 251, 251);
+}
+.dropdown-menu-right {
+  left: 12rem;
+}
+
+/* Customize the appearance of the dropdown items */
+.dropdown-item {
+  padding: 8px 12px; /* Adjust the padding of the dropdown items */
+  color: #333; /* Set the text color of the dropdown items */
+  font-size: 14px; /* Set the font size of the dropdown items */
+}
+
+/* Style the active/hover state of the dropdown items */
+.dropdown-item:hover,
+.dropdown-item.active {
+  background-color: #f8f9fa; /* Set the background color when hovering or active */
+  color: #007bff; /* Set the text color when hovering or active */
+}
+
+/* Optional: Add some space between the dropdown items */
+.dropdown-item + .dropdown-item {
+  margin-top: 2px;
+}
+
+.main-banner2{
+  position: relative;
+  background: url("../assets/training-min-scaled.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  /* margin-top: 3.7rem; */
+}
+.main-banner3{
+  position: relative;
+  background: url("../assets/School-min-scaled.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  /* margin-top: 3.7rem; */
+}
+.main-banner4{
+  position: relative;
+  background: url("../assets/With-BacBon-Smart-Board.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.main-banner5{
+  position: relative;
+  background: url("../assets/testimonial.png");
+  -webkit-background-size: cover;
+  background-size: cover;
+  /* margin-top: 3.7rem; */
+}
+.main-banner6{
+  position: relative;
+  background: url("../assets/about.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  /* margin-top: 3.7rem; */
+}
+.dark-overlayy {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #6B87A3;
+  opacity: .6;
+}
+/*  */
+.banner-content2 {
+  /* text-align: center; */
+  backdrop-filter:  brightness(100%);
+  padding-top: 50px;
+  padding-bottom: 20rem;
+}
+
+.content-padding {
+  padding: 200px 0px;
+}
+.banner-content h1 {
+  font-size: 60px;
+  text-transform: none;
+  line-height: 60px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.banner-content h6 {
+  color: #ffaa00;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.banner-content h1 span {
+  text-decoration: underline;
+}
+
+.banner-content p {
+  width: 70%;
+  margin: 15px auto 30px;
+}
+
+.white h1,
+.white h2,
+.white h3,
+.white p {
+  color: #fff;
+}
+
+
+.custom-card {
+  border: none; 
+  background-color: transparent;
+}
+
+.custom-card .card-img-top {
+  width: 100%;
+object-fit: cover;
+padding: 50px;
+}
+.custom-card .card-img-top:hover {
+  transform: scale(1.1); 
+  transition: 1000ms;
+}
+
+.custom-card .card-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-card .card-body {
+  margin: 10px;
+}
+.custom-card .card-body h6:hover{
+  color: #007bff;
+}
+.device img:hover{
+  transform: scale(1.1); 
+  transition: 1000ms;
+}
+.client-image{
+  width: 100px;
+  height: 100px;
+}
+.sub{
+  position: relative;
+  top: 35px;
+}
+
+.about{
+  padding: 120px 0px 120px 0px;
+}
+
+
+.footer{
+  background-color: rgb(0%, 11%, 22%);
+}
+.footer a{
+color: white;
+padding: 9px 0px 9px 0px;
+font-weight: 200;
+}
+
+@media (max-width: 767.98px) {
+  .top-0,
+  .start-0,
+  .translate-middle {
+    display:contents;
+  }
+  .nav2{
+    /* padding-top: 115px; */
+    padding: 0;
+    margin: 0;
+  }
+  .team{
+    text-align: center;
+  }
+  .camera3{
+    flex-direction: row;
+  }
+}

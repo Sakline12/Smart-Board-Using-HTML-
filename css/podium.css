@@ -1,0 +1,29 @@
+.main-banner7{
+    position: relative;
+    background: url("../assets/david-jorre-9f1gCaLkZBU-unsplash-scaled.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    
+    
+    /* margin-top: 3.7rem; */
+  }
+.imgside{
+    width: 200px;
+}
+
+.main-banner8{
+  position: relative;
+  background-color: black;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 50px;
+  /* margin-top: 3.7rem; */
+}
+
+.imgside1{
+  width: 400px;
+}
+
+body{
+  overflow-x: hidden;
+}

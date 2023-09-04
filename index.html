@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>BacBon Smart Solution</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <script src="https://kit.fontawesome.com/dd6cdb1568.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="first">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/BacBon-Smart-Solution-v2-1024x313.png" alt="Logo" class="img-fluid logo">
+          <p class="text-dark fw-bold  m-0"> <small class="fst-italic">Smart Class & Library Automation</small> </p>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="">
+          <div class="d-flex ">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white " href="#"><i
+                    class="fa-solid fa-phone rounded-5 p-3 bg-primary"></i></a>
+              </li>
+              <li>
+                <p class="text-dark fw-light  mb-2 mt-2">Call Us Anytime!</p>
+                <p class="text-dark fw-bold  m-0">+880 1797889756</p>
+              </li>
+              <li class="nav-item d-inline-flex align-items-center certified">
+                <img src="assets/c1.png" alt="" class="mx-2">
+                <img src="assets/c2.png" alt="" class="mx-2">
+                <img src="assets/c3.png" alt="" class="mx-2">
+                <img src="assets/c4.png" alt="" class="mx-2">
+                <img src="assets/c5.png" alt="" class="mx-2">
+                <img src="assets/c6.png" alt="" class="mx-2">
+                <img src="assets/c7.png" alt="" class="mx-2">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <header>
+    <nav class="navbar  navbar-expand-lg navbar-light bg-dark nav2 shadow-sm">
+      <div class="container">
+        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
+          <ul class="navbar-nav flex-grow-1 bd-highlight justify-content-center">
+            <li class="nav-item ">
+              <a class="nav-link  px-4" href="index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link px-4" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()">
+              <a class="nav-link dropdown-toggle px-4" href="#" id="navbarDropdown" role="button" aria-expanded="false">
+                Products
+              </a>
+              <ul class="dropdown-menu " aria-labelledby="navbarDropdown" id="dropdownMenu">
+                <div class=" d-lg-flex d-md-flex align-items-center">
+                  <li class="nav-item dropdown" onmouseover="showDropdown3()" onmouseout="hideDropdown3()">
+                    <a class=" dropdown-toggle  text-decoration-none px-1" href="#" id="navbarDropdown3" role="button"
+                      aria-expanded="false">Interactive LED Displays with Digital Smart Board</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown3" id="dropdownMenu3">
+                      <li><a class="dropdown-item" href="interactive_panel.html">LED Interactive Panel 65"</a></li>
+                      <li><a class="dropdown-item" href="interactive_panel.html">LED Interactive Panel 75"</a></li>
+                      <li><a class="dropdown-item" href="#">LED Interactive Panel 86"</a></li>
+                      <li><a class="dropdown-item" href="#">LED Interactive Panel 98"</a></li>
+                      <li><a class="dropdown-item" href="#">Conference Interactive Flat Panel (65",75" & 86")</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="digital_podium.html">Digital Podium</a></li>
+                  <li><a class="dropdown-item" href="digital_signage.html">Digital Signage</a></li>
+                  <li><a class="dropdown-item" href="#">Digital Kiosks</a></li>
+                  <li><a class="dropdown-item" href="#">Digital Poster</a></li>
+                  <li><a class="dropdown-item" href="#">Digital Honours Board</a></li>
+                </div>
+              </ul>
+            </li>
+            <li class="nav-item dropdown" onmouseover="showDropdown2()" onmouseout="hideDropdown2()">
+              <a class="nav-link dropdown-toggle px-4" href="#" id="navbarDropdown2" role="button"
+                aria-expanded="false">Solution</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown2" id="dropdownMenu2">
+                <li><a class="dropdown-item" href="allcourse.html">E-Learning Management Solutions</a></li>
+                <li><a class="dropdown-item" href="online.html">Smart Classroom Solutions</a></li>
+                <li><a class="dropdown-item" href="#">Virtual Classroom or Remote <br> Training Solutions</a></li>
+                <li><a class="dropdown-item" href="#">Smart Meetting Room Solutiond</a></li>
+                <li><a class="dropdown-item" href="#">ICT Lab Solutions</a></li>
+                <li><a class="dropdown-item" href="#">Library Automation Solutions</a></li>
+                <li class="nav-item dropdown" onmouseover="showDropdown4()" onmouseout="hideDropdown4()">
+                  <a class="dropdown-toggle text-decoration-none px-1" href="#" id="navbarDropdown4" role="button"
+                    aria-expanded="false">Video Conference Solutions</a>
+                  <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown4" id="dropdownMenu4">
+                    <li><a class="dropdown-item" href="allcourse.html">AI Base Video Conference Solutions</a></li>
+                    <li><a class="dropdown-item" href="online.html">USB & Remote Control Base Video Conference Solutions</a></li>
+                    <li><a class="dropdown-item" href="#">Automated Video Conference Solutions</a></li>
+                  </ul>
+                </li>
+                
+                
+                <li><a class="dropdown-item" href="#">Smart Auditorium Solutions</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4" href="#">News & Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4" href="addmission.html">Clients</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <ul class="navbar-nav">
+              <li class="nav-item d-inline-flex">
+                <a href="https://www.facebook.com/BacBonSmartSolution" class="mx-2 fs-4"><i
+                    class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.youtube.com/@bacbonsmartsolution" class="mx-2 fs-4"><i
+                    class="fa-brands fa-youtube text-danger"></i></a>
+                <a href="https://www.linkedin.com/company/bacbonsmartsolution/" class="mx-2 fs-4"><i
+                    class="fa-brands fa-linkedin "></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+    <!-- Carousel Indicators -->
+    <ol class="carousel-indicators list-unstyled">
+      <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></li>
+      <!-- Add more li elements for additional slides -->
+    </ol>
+
+    <!-- Carousel Slides -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="main-banner2 h-100">
+          <div class="dark-overlay">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 m-auto col-sm-12">
+                  <div class="banner-content content-padding white">
+                    <div class="mb-4">
+                      <a href="">
+                        <span class="p-4 rounded-5 bg-danger"><i class="fa-solid fa-play text-white fs-4"></i></span>
+                      </a>
+                    </div>
+                    <h6>The Innovative And Seamless Collaboration Tool You Need.</h6>
+                    <h1 class=""><span class="text-decoration-none text-primary">Interactive</span> LED Displays <br>
+                      With
+                      Digital Smart <br> Board</h1>
+                    <a href="#" class="btn btn-primary circled">Talk To An Expert</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <div class="main-banner3 h-100">
+          <div class="dark-overlay">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 m-auto col-sm-12">
+                  <div class="banner-content content-padding white">
+                    <div class="mb-4">
+                      <a href="">
+                        <span class="p-4 rounded-5 bg-danger"><i class="fa-solid fa-play text-white fs-4"></i></span>
+                      </a>
+                    </div>
+                    <h6 class="mt-5">Business Collaboration Solution.</h6>
+                    <h1 class=""><span class="text-decoration-none text-primary">Engage</span> Students Like<br>Never
+                      Before</h1>
+                    <a href="#" class="btn btn-primary circled">Show Project</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Add more carousel-item elements for additional slides -->
+    </div>
+
+    <!-- Carousel Controls -->
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+      <span class="" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+      <span class="" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+
+  <div class="main-banner4  mt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-0 col-sm-12">
+          <div class="banner-content content-padding white">
+            <h3 class="text-dark">BACBON Interactive Flat Panel</h3>
+            <h3 class="text-dark fw-bold">Simple, Smart, Connected</h3>
+            <img src="assets/Features-1.png" alt="" class="img-fluid mt-4">
+          </div>
+        </div>
+      </div>
+      <div>
+      </div>
+    </div>
+  </div>
+
+  <section class="bg-black mt-5">
+    <div class="container ">
+      <div class="row text-center text-white">
+        <div class="mt-4">
+          <h3>One Panel for Multiple Applications</h3>
+          <p class="mt-5">BACBON ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+            ullamcorper mattis, pulvinar dapibus leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        </div>
+        <div class="mt-3">
+          <img src="assets/corporate-image.jpg" alt="" class="img-fluid  w-lg-50 p-5">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-info-subtle">
+    <div class="container py-5">
+      <div class="row ">
+        <h3 class="text-center fw-bold mt-5">Complete Solution Provider</h3>
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-3">
+          <div class="card m-3 custom-card bg-info-subtle">
+            <img src="assets/Screenshot-2023-03-28-105241.png" class="card-img-top" alt="Image 1">
+            <div class="card-body text-center">
+              <h6 class="fw-bold"> 4 People </h6>
+              <p class="card-text ">Click edit to change this text. Lorem ipsum dolor sit amet, cctetur adipiscing elit.
+                Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. </p>
+            </div>
+            <div class=" text-center ">
+              <button class="btn  bg-dark text-white border-0 rounded-0 " href="">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card custom-card bg-info-subtle">
+            <img src="assets/Screenshot-2023-03-28-105241.png" class="card-img-top" alt="Image 1">
+            <div class="card-body text-center">
+              <h6 class="fw-bold"> 4 People </h6>
+              <p class="card-text ">Click edit to change this text. Lorem ipsum dolor sit amet, cctetur adipiscing elit.
+                Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. </p>
+            </div>
+            <div class=" text-center">
+              <button class="btn  bg-dark text-white border-0 rounded-0" href="">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 ">
+          <div class="card custom-card bg-info-subtle">
+            <img src="assets/Screenshot-2023-03-28-105241.png" class="card-img-top" alt="Image 1">
+            <div class="card-body text-center">
+              <h6 class="fw-bold"> 4 People </h6>
+              <p class="card-text ">Click edit to change this text. Lorem ipsum dolor sit amet, cctetur adipiscing elit.
+                Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. </p>
+            </div>
+            <div class=" text-center">
+              <button class="btn  bg-dark text-white border-0 rounded-0" href="">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card custom-card bg-info-subtle">
+            <img src="assets/Screenshot-2023-03-28-105241.png" class="card-img-top" alt="Image 1">
+            <div class="card-body text-center">
+              <h6 class="fw-bold"> 4 People </h6>
+              <p class="card-text ">Click edit to change this text. Lorem ipsum dolor sit amet, cctetur adipiscing elit.
+                Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. </p>
+            </div>
+            <div class=" text-center">
+              <button class="btn  bg-dark text-white border-0 rounded-0" href="">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="mt-5">
+    <div class="container">
+      <div class="row text-center">
+        <h2 class="fw-bold">Education Solution </h2>
+        <p class=" text-secondary">Engage Students Like Never Before</p>
+      </div>
+
+      <div class="row d-flex align-items-center justify-content-center p-md-5">
+        <div class="col-md-6">
+          <img src="assets/education-usage-min-1-2048x1463.png" alt="" class="rounded-3 img-fluid">
+        </div>
+        <div class="col-md-6 p-md-5 ">
+          <h1 class="fw-bold">Education Solution </h1>
+          <p class=" text-secondary">4K Resolution | Eye Care Mode | Simple Design <br>
+            Responsive Touch |Rich Class Delivery Software</p>
+          <button class="btn btn-primary">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-black mt-5 py-5">
+    <div class="container ">
+      <div class="row text-center text-white">
+        <div class="mt-4">
+          <h2 class="fw-bold">One Feature Products</h2>
+          <p class="mt-5">BACBON ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+            ullamcorper mattis, pulvinar dapibus leo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        </div>
+      </div>
+
+      <div class="row p-5 d-flex align-items-end">
+        <div class="col-md-3">
+          <img src="assets/camera1.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+          <img src="assets/IFP-with-MaxHub-Camera-Black-BG.png" alt="" class="img-fluid w-100">
+        </div>
+        <div class="col-md-3">
+          <img src="assets/projector.png" alt="" class="img-fluid">
+        </div>
+      </div>
+      <div class="row text-center">
+        <p class="text-primary ">New Model With High Configuration Hardware</p>
+        <h2 class="fw-bold text-white">One Feature Products</h2>
+        <div>
+          <a class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-5">
+    <div class="container p-md-5">
+      <div class="row text-center">
+        <h1 class="fw-bold text-black-75">BacBon Conference Solution with High End Camera</h1>
+      </div>
+      <div class="row d-flex align-items-center">
+        <div class="col-md-6 device p-md-5">
+          <a href="#">
+            <img src="assets/Maxhub-Camera-with-Text.png" alt="" class="img-fluid border-0 rounded-3">
+          </a>
+        </div>
+        <div class="col-md-6 p-md-5 device col-sm-12">
+          <div class="card border-0">
+            <div class="d-flex flex-wrap justify-content-center">
+              <div class="col-md-6 col-sm-6 mt-3">
+                <img src="assets/pendrive.png" alt="" class="img-fluid">
+              </div>
+              <div class="col-md-6 col-sm-6 mt-3">
+                <img src="assets/confarance-cam.png" alt="" class="img-fluid">
+              </div>
+              <div class="col-md-6 col-sm-6 mt-3">
+                <img src="assets/vebCam.png" alt="" class="img-fluid">
+              </div>
+              <div class="col-md-6 col-sm-6 mt-3">
+                <img src="assets/desk.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-5 bg-info-subtle">
+    <div class="container ">
+      <h1 class="fw-bold py-5 text-center">Our Honorable Client</h1>
+
+
+      <div id="carouselExample3" class="carousel slide p-5" data-bs-ride="carousel">
+        <div class="carousel-inner ">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-2 ">
+                  <img src="assets/casio-1.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-2 ">
+                  <img src="assets/bankasia-1.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-2 ">
+                  <img src="assets/jica-1.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-2 ">
+                  <img src="assets/kjs-1.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-2 ">
+                  <img src="assets/pksf-1.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-2 ">
+                  <img src="assets/worldbank-1.png" alt="" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-2 ">
+                  <img src="assets/e-education-1.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-2 ">
+                  <img src="assets/hito-1.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-2 ">
+                  <img src="assets/net-learning-1-150x74-1.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-2 ">
+                  <img src="assets/kyoto-1.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-2 ">
+                  <img src="assets/community-1.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-2 ">
+                  <img src="assets/tokyo-1.png" alt="" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev justify-content-start" href="#carouselExample3" role="button"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark fs-6  rounded-circle" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next justify-content-end " href="#carouselExample3" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-dark fs-6 rounded-circle" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-5">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="fw-bold">Our Team</h1>
+      </div>
+      <div class="row d-flex align-items-center team p-5">
+        <div class="col-md-1">
+          <img src="assets/User-Avatar-in-Suit-PNG.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-3">
+          <h3 class="fw-light fs-4">Md Manowar Hossain</h3>
+          <h3 class="fw-light fs-6">Head of Business operations </h3>
+        </div>
+        <div class="col-md-1">
+          <img src="assets/User-Avatar-in-Suit-PNG.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-3">
+          <h3 class="fw-light fs-4">Md. Muraduzzaman</h3>
+          <h3 class="fw-light fs-6">Head of Smart Solution </h3>
+        </div>
+        <div class="col-md-1">
+          <img src="assets/User-Avatar-in-Suit-PNG.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-3">
+          <h3 class="fw-light fs-4">Dipto Shom</h3>
+          <h3 class="fw-light fs-6">IT Manager, Smart Solution </h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-5">
+    <div class="container py-5">
+      <div class="text-center">
+        <h1 class="fw-bold">Our Case Studies</h1>
+      </div>
+
+      <div class="row p-md-5">
+        <div class="col-md-4">
+          <div class="card border-0">
+            <div class=" text-center">
+              <h5 class="fw-bold">Avast Free Message board </h5>
+            </div>
+            <div class="card-body text-center">
+              <p>
+                Avast free forum is normally an online community website that delivers a wide variety of methods to people. Its content material includes training, FAQs.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0">
+            <div class=" text-center">
+              <h5 class="fw-bold">Virtual Data Area Service Providers — What They Do as well as how to Choose One  </h5>
+            </div>
+            <div class="card-body text-center">
+              <p>
+                A VDR is a safeguarded online system that provides an easy way to share sensitive docs. They’re frequently used during the process of legal and
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0">
+            <div class=" text-center">
+              <h5 class="fw-bold">Issues with Antivirus Courses  </h5>
+            </div>
+            <div class="card-body text-center">
+              <p>
+                Problems with anti virus programs The industry for malware solutions is, like any other sort of consumer item, faced with a variety of concerns. These
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="main-banner5  mt-2">
+    <div class="dark-overlayy"></div>
+    <div class="container">
+      <div class="row text-center">
+          <div class="banner-content2 ">
+            <h2 class="text-white fw-bold ">What Customers Saying About Bacbon</h2>
+            <p class="text-white fw-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="position-relative top-50 start-50 translate-middle mt-4 position-md-static">
+    <div class="container">
+      <div id="carouselExample4" class="carousel slide p-5" data-bs-ride="carousel">
+        <div class="carousel-inner ">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row p-4">
+                <div class="col-md-4 ">
+                  <div class="card m-3  rounded-3 border-3 border-secondary-subtle shadow">
+                    <div class="d-flex justify-content-center align-items-center mt-2">
+                      <img src="assets/client1.jpg" alt="" class="rounded-circle client-image">
+                    </div>
+                    <div class="card-body text-center ">
+                      <h6 class="fw-bold ">Michale Monroee</h6>
+                      <p class="fw-light">Designer</p>
+                    </div>
+                    <div class="d-inline-flex text-warning text-center justify-content-center fs-6">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-secondary fw-light text-center mt-4 p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, in.Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, in.</p>
+                  </div>
+                </div>
+                <div class="col-md-4 ">
+                  <div class="card m-3 rounded-3 border-3 border-secondary-subtle shadow">
+                    <div class="d-flex justify-content-center align-items-center mt-2">
+                      <img src="assets/client2.jpg" alt="" class="rounded-circle client-image">
+                    </div>
+                    <div class="card-body text-center ">
+                      <h6 class="fw-bold ">Jhon </h6>
+                      <p class="fw-light">Designer</p>
+                    </div>
+                    <div class="d-inline-flex text-warning text-center justify-content-center fs-6">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-secondary fw-light text-center mt-4 p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, in.Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, in.</p>
+                  </div>
+                </div>
+                <div class="col-md-4 ">
+                  <div class="card m-3 rounded-3 border-3 border-secondary-subtle shadow">
+                    <div class="d-flex justify-content-center align-items-center mt-2">
+                      <img src="assets/client3.jpg" alt="" class="rounded-circle client-image">
+                    </div>
+                    <div class="card-body text-center ">
+                      <h6 class="fw-bold ">Simons Monroee</h6>
+                      <p class="fw-light">Designer</p>
+                    </div>
+                    <div class="d-inline-flex text-warning text-center justify-content-center fs-6">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-secondary fw-light text-center mt-4 p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, in.Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, in.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card m-3 rounded-3 border-3 border-secondary-subtle shadow">
+                    <div class="d-flex justify-content-center align-items-center mt-2">
+                      <img src="assets/client1.jpg" alt="" class="rounded-circle client-image">
+                    </div>
+                    <div class="card-body text-center ">
+                      <h6 class="fw-bold ">Adam Monroee</h6>
+                      <p class="fw-light">Designer</p>
+                    </div>
+                    <div class="d-inline-flex text-warning text-center justify-content-center fs-6">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-secondary fw-light text-center mt-4 p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, in.Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, in.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card m-3 rounded-3 border-3 border-secondary-subtle shadow">
+                    <div class="d-flex justify-content-center align-items-center mt-2">
+                      <img src="assets/client3.jpg" alt="" class="rounded-circle client-image">
+                    </div>
+                    <div class="card-body text-center ">
+                      <h6 class="fw-bold ">Joe Rogan </h6>
+                      <p class="fw-light">Designer</p>
+                    </div>
+                    <div class="d-inline-flex text-warning text-center justify-content-center fs-6">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-secondary fw-light text-center mt-4 p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, in.Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, in.</p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card m-3 rounded-3 border-3 border-secondary-subtle shadow">
+                    <div class="d-flex justify-content-center align-items-center mt-2">
+                      <img src="assets/client2.jpg" alt="" class="rounded-circle client-image">
+                    </div>
+                    <div class="card-body text-center ">
+                      <h6 class="fw-bold ">Abdul Ali</h6>
+                      <p class="fw-light">Designer</p>
+                    </div>
+                    <div class="d-inline-flex text-warning text-center justify-content-center fs-6">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-secondary fw-light text-center mt-4 p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, in.Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, in.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev justify-content-start" href="#carouselExample4" role="button"
+          data-bs-slide="prev">
+          <span class=" bg-dark fs-6 " aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next justify-content-end " href="#carouselExample4" role="button" data-bs-slide="next">
+          <span class=" bg-dark fs-6" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="position-relative">
+    <div class="container sub">
+      <div class="row d-flex justify-content-center ">
+        <div class="col-md-8">
+          <div class="card d-flex  rounded-4 border-0  bg-secondary-subtle shadow-lg">
+            <div class="row d-flex align-items-center p-3">
+              <div class=" col-md-4">
+                <h1 class="fw-bold">Newsletter</h1>
+                <p class="text-secondary fw-lighter fs-6">Subscribe and get notification from us</p>
+              </div>
+              <div class="col-md-8">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Your Email:" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-primary rounded-0" type="button">Subscribe</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class=" text-light footer">
+    <div class="container p-5">
+      <div class="row py-4">
+        <div class="col-md-3">
+          <img src="assets/BacBon-Smart-Solution-v2-1024x313.png" alt="Company Logo" class="img-fluid logo">
+          <div class="py-5">
+            <p>Phone: +1 123 456 789</p>
+            <p>Email: info@example.com</p>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-6">
+          <h5 class="fw-bold text-white">Company</h5>
+          <ul class="list-unstyled  ">
+            <li><a href="about.html" class="text-decoration-none ">About Us</a></li>
+            <li><a href="privacy.html" class="text-decoration-none ">Our Teams</a></li>
+            <li><a href="faq.html" class="text-decoration-none ">Our Solutions</a></li>
+            <li><a href="t&c.html" class="text-decoration-none ">Project Details</a></li>
+            <li><a href="t&c.html" class="text-decoration-none ">Latest Projects</a></li>
+            <li><a href="contact.html" class="text-decoration-none ">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-6 text-dark">
+          <h6 class="fw-bold text-white">Solutions</h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-decoration-none ">Lead Solution</a></li>
+            <li><a href="#" class="text-decoration-none ">Business Commercial</a></li>
+            <li><a href="#"class="text-decoration-none ">Drivers & Personal Use</a></li>
+            <li><a href="#" class="text-decoration-none ">Government & Utilities</a></li>
+            <li><a href="#" class="text-decoration-none ">Public Charging Stations</a></li>
+            <li><a href="#" class="text-decoration-none ">Battery Maintenance</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 text-dark">
+          <h6 class="fw-bold text-white">Industries</h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-decoration-none ">Workplaces</a></li>
+            <li><a href="#" class="text-decoration-none ">Retail & Hospitality</a></li>
+            <li><a href="#"class="text-decoration-none ">Drivers & Personal Use</a></li>
+            <li><a href="#" class="text-decoration-none ">Commercial Parking</a></li>
+            <li><a href="#" class="text-decoration-none ">Fuel Retailers</a></li>
+            <li><a href="#" class="text-decoration-none ">Fleets</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p class="fw-lighter text-secondary fs-6">© All rights reserved 2022</p>
+    </div>
+  </footer>
+
+  <script src="js/lms.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script> -->
+</body>
+
+</html>

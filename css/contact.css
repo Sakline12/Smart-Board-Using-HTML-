@@ -1,0 +1,92 @@
+
+        .image-container {
+            position: relative;
+            max-width: 100%; 
+            height: 300px; 
+            overflow: hidden; 
+            margin: 0 auto; 
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%; 
+            object-fit: cover; 
+        }
+
+        .image-container .image-text {
+            position: absolute;
+            top: 50%;
+            left: 50%; 
+            transform: translate(-50%, -50%);
+            color: white; 
+            font-size: 24px; 
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+        }
+
+        .contac .btn {
+           
+            background-color: #ebe5e5; 
+            color: #000000;
+            padding: 10px 20px; 
+            border: 10px; 
+            border-color: #000000;
+            border-radius: 5px; 
+            cursor: pointer; 
+        }
+
+     
+        .contac .btn:hover {
+            background-color: #10345c; 
+            color: whitesmoke;
+          
+        }
+
+    
+        .btn-lg {
+            font-size: 24px; 
+        }
+
+        .mt-3 {
+            margin-top: 15px; 
+        }
+
+        .w-100 {
+            width: 100%; 
+        }
+        iframe{
+            width:80%;
+            height:500px;
+            filter:invert(100%);
+        }
+      
+        .container1{
+          width:100%;
+          height: 50vh;
+         align-items: center;
+         justify-content:center;
+         flex-direction:column;
+         display:flex;
+         }
+
+
+  #loadingOverlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+  }
+
+  .loading-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
